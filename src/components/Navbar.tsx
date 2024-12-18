@@ -40,7 +40,7 @@ const Navbar: React.FC = () => {
               {readingList.length > 0 && (
                 <Badge
                   count={readingList.length}
-                  size="small"                     
+                  size="small"
                   color="green"
                   style={{ marginBottom: 12, marginLeft: 4 }}
                 />
